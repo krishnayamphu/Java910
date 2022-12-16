@@ -14,9 +14,14 @@ public class Array {
      assigning array value:
      var[index]=value
 
+     accessing array element
+     var[index]
+
      ***index start from 0.
+     Array initialization:
+     datatype[] var={value1, value2, value3,...}
+
      *
-     * geeksforgeeks
      */
     public static void main(String[] args) {
         int[] num=new int[3];
@@ -24,7 +29,16 @@ public class Array {
         num[1]=20;
         num[2]=30;
 
-        for(int i=0; i<3; i++)
-        System.out.println(num[i]);
+        System.out.println("================");
+        for(int i=0; i<3; i++){
+            System.out.println("num["+i+"]="+num[i]);
+        }
+        System.out.println("===================");
+
+        int[] age={12,15,16,19,17};
+        for(int a:age){
+            System.out.println(a);
+        }
+
     }
 }
