@@ -1,5 +1,7 @@
 package com.ky.oop;
 
+import java.util.Scanner;
+
 public class MethodDemo {
     /**
      * Method Declaration:
@@ -24,5 +26,20 @@ public class MethodDemo {
 
         MyMath math=new MyMath();
         System.out.println("Value of PI:"+math.getPI());
+
+        System.out.println("=======================");
+        Scanner s=new Scanner(System.in);
+//        System.out.print("Enter value of x:");
+//        int x=s.nextInt();
+//        System.out.print("Enter value of y:");
+//        int y=s.nextInt();
+//        math.sum(x,y);
+        System.out.println("==========================");
+
+        math.personInfo("Ram",40);
+        math.personInfo("Hari",16);
+
+        System.out.println("============================");
+        System.out.println("Discount: "+math.getDiscountAmount(1500,10));
     }
 }
