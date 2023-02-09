@@ -7,13 +7,26 @@ public class ExceptionDemo {
      * Exception Handling:
      * 1. try catch block
      * 2. finally block
-     * 3. throws
-     * 4. throw
+     * 3. throws keyword
+     * 4. throw keyword
      *
      * try{
      *     //statements
      * }
      * catch(ExceptionType e){
+     *     //error message
+     * }
+     *
+     * try{
+     *     //statements
+     * }catch(ExceptionType e){
+     *     //error message
+     * }catch(ExceptionType e){
+     *     //error message
+     *  }
+     *try{
+     *     //statements
+     * }catch(ExceptionType1 | ExceptionType2 e){
      *     //error message
      * }
      */
