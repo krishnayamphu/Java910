@@ -10,7 +10,6 @@ public class MyFrame extends Frame {
         setLayout(new FlowLayout());
         add(new Button("Button"));
     }
-
     public static void main(String[] args) {
         new MyFrame();
     }
